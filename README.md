@@ -25,4 +25,4 @@ To add a backend and interactive UI DESIGN using Tailwind
 
 ## License
 
-(MIT License
+(MIT License)
