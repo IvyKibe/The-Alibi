@@ -6,24 +6,23 @@ This is a website for "The Alibi Restaurant," providing information about their 
 
 * Homepage with welcoming information and featured dishes.
 * Interactive menu display.
-* Reservation form (if implemented).
+* Reservation form 
 * Contact information page.
-* Responsive design (if applicable).
+* Responsive design 
 
 ## Technologies Used
 
 * HTML
 * CSS
-* JavaScript (if any interactive elements are used)
-
+* JavaScript 
 ## How to Use
 
 Simply open the `index.html` file in your web browser to view the website.
 
 ## Future Improvements
 
-(Optional: List any planned future enhancements)
+To add a backend and interactive UI DESIGN using Tailwind
 
 ## License
 
-(Optional: Include a license if you want to specify how others can use your code)
+(MIT License
