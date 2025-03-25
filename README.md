@@ -16,12 +16,6 @@ This is a website for "The Alibi Restaurant," providing information about their 
 * CSS
 * JavaScript (if any interactive elements are used)
 
-## Preview
-
-Here's a screenshot of the website's homepage:
-
-![The Alibi Website Preview](screenshot.png)
-
 ## How to Use
 
 Simply open the `index.html` file in your web browser to view the website.
