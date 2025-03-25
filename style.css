@@ -436,3 +436,338 @@ footer {
         margin-bottom: 20px;
     }
 }
+
+/* Delivery Info Section */
+.delivery-info {
+    padding: 30px;
+    margin-bottom: 40px;
+    background-color: #f0f8f8;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.delivery-info h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+.delivery-info p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.delivery-info ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.delivery-info ul li {
+    margin-bottom: 8px;
+    color: #666;
+}
+
+.delivery-info ul li strong {
+    font-weight: 600;
+    color: #333;
+    display: inline-block;
+    width: 120px; /* Adjust as needed for alignment */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin-bottom: 8px;
+}
+
+.payment-options strong {
+    font-weight: bold;
+}
+
+.social-links {
+    margin-top: 10px;
+    color: #ccc;
+    font-size: 0.9em;
+}
+
+.social-links a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    color: #d32f2f;
+}
+
+/* Customer Reviews Section */
+.customer-reviews {
+    padding: 40px;
+    margin-bottom: 40px;
+    background-color: #f8f8f8; /* Slightly lighter background */
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.customer-reviews h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-left: 3px solid #d32f2f; /* Highlight the review */
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.review:last-child {
+    margin-bottom: 0;
+}
+
+.review-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Make the image a circle */
+    overflow: hidden; /* Ensure the image stays within the circle */
+    margin-right: 20px;
+    flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+.review-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the circle area */
+}
+
+.review-text {
+    flex-grow: 1; /* Allow text to take remaining space */
+}
+
+.customer-name {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.review-text p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Profile Link Styling */
+header nav ul li a.profile-link {
+    display: inline-flex; /* To align image and text */
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px; /* Slightly less padding for a tighter look */
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.7); /* Lighter border */
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+header nav ul li a.profile-link:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.9);
+}
+
+header nav ul li a.profile-link img {
+    margin-right: 8px; /* Space between image and text */
+    vertical-align: middle; /* Align image with text */
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5); /* Slightly darker overlay */
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto; /* Adjusted margin for better centering */
+    padding: 30px;
+    border: 1px solid #ccc;
+    width: 90%; /* Wider on smaller screens */
+    max-width: 400px; /* Limit max width */
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+.form-container {
+    padding: 20px 0; /* Add some internal padding */
+    border-bottom: 1px solid #eee; /* Subtle separator between forms */
+}
+
+.form-container:last-child {
+    border-bottom: none;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #d32f2f; /* Use your primary color */
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.95em;
+    color: #333;
+    font-weight: 500;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="text"] {
+    width: calc(100% - 22px); /* Account for padding */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus,
+.form-group input[type="text"]:focus {
+    border-color: #ff6347; /* Tomato color for focus */
+    outline: none;
+}
+
+#modal-login-form button,
+#modal-signup-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #d32f2f; /* Your primary color */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.05em;
+    transition: background-color 0.3s ease;
+}
+
+#modal-login-form button:hover,
+#modal-signup-form button:hover {
+    background-color: #b71c1c; /* Darker shade on hover */
+}
+
+.signup-link,
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+    color: #555;
+    font-size: 0.95em;
+}
+
+.signup-link a,
+.login-link a {
+    color: #d32f2f;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.signup-link a:hover,
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+.error-message,
+.success-message {
+    font-size: 0.9em;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.error-message {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+
+.success-message {
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+
+/* Responsive Adjustments for Modal */
+@media (max-width: 600px) {
+    .modal-content {
+        width: 95%;
+        margin: 5% auto;
+    }
+}
+
+.success-message {
+    font-size: 0.9em;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+.modal {
+    display: none; /* Hide the modal by default */
+    position: fixed; /* Position it fixed to overlay content */
+    z-index: 1000; /* Ensure it's on top of other elements */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+}
+

@@ -15,8 +15,65 @@
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="reservations.html">Reservations</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" id="profile-trigger" class="profile-link"><img src="images/profile.png" alt="Profile Icon" width="20" height="20"></a></li>
             </ul>
         </nav>
+
+        <div id="login-signup-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <div id="login-form-container" class="form-container active">
+                    <h2>Login</h2>
+                    <form id="modal-login-form">
+                        <div class="form-group">
+                            <label for="modal-login-email">Email:</label>
+                            <input type="email" id="modal-login-email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="modal-login-password">Password:</label>
+                            <input type="password" id="modal-login-password" name="password" required>
+                        </div>
+                        <button type="submit">Login</button>
+                    </form>
+                    <p class="signup-link">Don't have an account? <a href="#" id="show-signup">Sign Up</a></p>
+                    <div id="modal-login-error" class="error-message" style="display: none; color: red; margin-top: 10px;">
+                        Invalid email or password.
+                    </div>
+                    <div id="modal-login-success" class="success-message" style="display: none; color: green; margin-top: 10px;">
+                        Login Successful!
+                    </div>
+                </div>
+                <div id="signup-form-container" class="form-container">
+                    <h2>Sign Up</h2>
+                    <form id="modal-signup-form">
+                        <div class="form-group">
+                            <label for="modal-signup-name">Name:</label>
+                            <input type="text" id="modal-signup-name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="modal-signup-email">Email:</label>
+                            <input type="email" id="modal-signup-email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="modal-signup-password">Password:</label>
+                            <input type="password" id="modal-signup-password" name="password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm-password">Confirm Password:</label>
+                            <input type="password" id="modal-confirm-password" name="confirm-password" required>
+                        </div>
+                        <button type="submit">Sign Up</button>
+                    </form>
+                    <p class="login-link">Already have an account? <a href="#" id="show-login">Login</a></p>
+                    <div id="modal-signup-error" class="error-message" style="display: none; color: red; margin-top: 10px;">
+                        Please ensure all fields are filled correctly and passwords match.
+                    </div>
+                    <div id="modal-signup-success" class="success-message" style="display: none; color: green; margin-top: 10px;">
+                        Account created successfully!
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
     <main>
@@ -47,6 +104,38 @@
                 </div>
             </div>
         </section>
+        <section class="customer-reviews">
+            <h2>What Our Customers Say</h2>
+            <div class="review">
+                <div class="review-image">
+                    <img src="images/customer1.jpg" alt="Customer Profile 1">
+                </div>
+                <div class="review-text">
+                    <p class="customer-name">Jane M.</p>
+                    <p>"The Alibi has become our go-to spot! The food is always delicious, and the atmosphere is so welcoming. Highly recommend the [mention a specific dish]!"</p>
+                </div>
+            </div>
+
+            <div class="review">
+                <div class="review-image">
+                    <img src="images/customer2.jpg" alt="Customer Profile 2">
+                </div>
+                <div class="review-text">
+                    <p class="customer-name">David K.</p>
+                    <p>"Great service and amazing flavors! I especially loved the [mention another dish]. The staff are very friendly and attentive."</p>
+                </div>
+            </div>
+
+            <div class="review">
+                <div class="review-image">
+                    <img src="images/customer3.jpg" alt="Customer Profile 3">
+                </div>
+                <div class="review-text">
+                    <p class="customer-name">Sarah W.</p>
+                    <p>"A wonderful dining experience every time. The Alibi offers a fantastic menu with something for everyone. The [mention a third dish] is a must-try!"</p>
+                </div>
+            </div>
+        </section>
 
         <section class="featured-dishes">
             <h2>Featured Dishes</h2>
@@ -65,6 +154,11 @@
 
     <footer>
         <p>&copy; 2024 The Alibi Restaurant</p>
+        <p class="payment-options"><strong>Payment Options:</strong> We accept M-Pesa, Visa, Mastercard, and Cash.</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/yourpage" target="_blank">Facebook</a> |
+            <a href="https://www.instagram.com/yourhandle" target="_blank">Instagram</a>
+        </div>
     </footer>
 
     <script src="script.js"></script>
